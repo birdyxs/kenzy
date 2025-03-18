@@ -59,3 +59,6 @@ function openAlytut(evt, alytutName) {
   document.getElementById(alytutName).style.display = "block";
   evt.currentTarget.className += " tabzact";
 }
+
+      document.onkeydown = function(){return false};
+        document.oncontextmenu = function(){return false}
